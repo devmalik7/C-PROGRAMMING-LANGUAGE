@@ -4,32 +4,31 @@
 int main()
 {
     int number;
-    int guss;
+    int guess;
     int count = 1;
     srand(time(0));
     number = rand() % 100 + 1;
-    //printf("THE RANDOM NUMBER IS %d", number);
-
+    printf("Welcome, To The Number Guessing Game...");
     do
     {
 
-        printf("GUESS THE NUMBER BETWEEN 0 AND 100 :");
-        scanf("%d", &guss);
-        if (guss < number)
+        printf("\nGUESS THE NUMBER BETWEEN 0 AND 100 :");
+        scanf("%d", &guess);
+        if (guess < number)
         {
-            printf("GUSS THE HIGHER NUMBER PLEASE");
+            printf("GUESS THE 'HIGHER' NUMBER PLEASE");
         }
-        else if (guss > number)
+        else if (guess > number)
         {
-            printf("GUESS THE LOWER NUMBER PLEASE");
+            printf("GUESS THE 'LOWER' NUMBER PLEASE");
         }
         else
             {
-                printf("CONGRATULATIONS YOU HAVE FOUND THE CORRECT NUMBER in 5d attempt", count);
+                printf("CONGRATULATIONS YOU HAVE FOUND THE CORRECT NUMBER in %d attempts", count);
             }  
             
           count++;
-    }while(guss != number);
+    }while(guess != number);
 
     return 0;
 }
