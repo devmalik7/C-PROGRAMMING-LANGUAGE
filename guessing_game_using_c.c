@@ -7,6 +7,18 @@ int main()
     int guess;
     int count = 1;
     srand(time(0));
+ main
+    number = rand() % 100 + 1; //Variable Number initialized with a Random number
+
+    do
+    {
+
+        printf("GUESS THE NUMBER BETWEEN 0 AND 100: ");
+        scanf("%d", &guss);
+        if (guss < number)
+        {
+            printf("GUESS A HIGHER NUMBER PLEASE!!!\n");
+
     number = rand() % 100 + 1;
     printf("Welcome, To The Number Guessing Game...");
     do
@@ -16,11 +28,15 @@ int main()
         scanf("%d", &guess);
         if (guess < number)
         {
-            printf("GUESS THE 'HIGHER' NUMBER PLEASE");
+  main
         }
         else if (guess > number)
         {
+ main
+            printf("GUESS A LOWER NUMBER PLEASE!!!\n");
+
             printf("GUESS THE 'LOWER' NUMBER PLEASE");
+main
         }
         else
             {
