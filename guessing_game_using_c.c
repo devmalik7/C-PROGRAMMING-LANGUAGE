@@ -7,25 +7,24 @@ int main()
     int guss;
     int count = 1;
     srand(time(0));
-    number = rand() % 100 + 1;
-    //printf("THE RANDOM NUMBER IS %d", number);
+    number = rand() % 100 + 1; //Variable Number initialized with a Random number
 
     do
     {
 
-        printf("GUESS THE NUMBER BETWEEN 0 AND 100 :");
+        printf("GUESS THE NUMBER BETWEEN 0 AND 100: ");
         scanf("%d", &guss);
         if (guss < number)
         {
-            printf("GUSS THE HIGHER NUMBER PLEASE");
+            printf("GUESS A HIGHER NUMBER PLEASE!!!\n");
         }
         else if (guss > number)
         {
-            printf("GUESS THE LOWER NUMBER PLEASE");
+            printf("GUESS A LOWER NUMBER PLEASE!!!\n");
         }
         else
             {
-                printf("CONGRATULATIONS YOU HAVE FOUND THE CORRECT NUMBER in 5d attempt", count);
+                printf("CONGRATULATIONS YOU HAVE FOUND THE CORRECT NUMBER in %d attempts", count);
             }  
             
           count++;
