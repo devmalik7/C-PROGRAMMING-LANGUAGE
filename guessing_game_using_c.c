@@ -4,9 +4,10 @@
 int main()
 {
     int number;
-    int guss;
+    int guess;
     int count = 1;
     srand(time(0));
+ main
     number = rand() % 100 + 1; //Variable Number initialized with a Random number
 
     do
@@ -17,10 +18,25 @@ int main()
         if (guss < number)
         {
             printf("GUESS A HIGHER NUMBER PLEASE!!!\n");
-        }
-        else if (guss > number)
+
+    number = rand() % 100 + 1;
+    printf("Welcome, To The Number Guessing Game...");
+    do
+    {
+
+        printf("\nGUESS THE NUMBER BETWEEN 0 AND 100 :");
+        scanf("%d", &guess);
+        if (guess < number)
         {
+  main
+        }
+        else if (guess > number)
+        {
+ main
             printf("GUESS A LOWER NUMBER PLEASE!!!\n");
+
+            printf("GUESS THE 'LOWER' NUMBER PLEASE");
+main
         }
         else
             {
@@ -28,7 +44,7 @@ int main()
             }  
             
           count++;
-    }while(guss != number);
+    }while(guess != number);
 
     return 0;
 }
