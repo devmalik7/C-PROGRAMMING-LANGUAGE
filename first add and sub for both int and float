@@ -7,7 +7,6 @@ int main()
     scanf("%d", &b);
     scanf("%f", &c);
     scanf("%f", &d);
-    printf("%d",a+b);
-    printf("%f",c+d);
-    return 0;
+    printf("The Sum Of Integers is: %d",a+b);
+    printf("The Sum Of Floats is: %f",c+d);
 }
