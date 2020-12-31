@@ -1,7 +1,8 @@
 #include<stdio.h>           //importing package
 int main(){
     int i=1, sum=0, n=10;
-    while( i<=n){           //loop for sum of the first 10 natural numbers
+    while( i<=n)            //while loop for sum of the first 10 natural numbers
+    {           
         sum +=i;
         i++; 
     }
