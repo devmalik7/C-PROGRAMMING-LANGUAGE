@@ -12,4 +12,5 @@ int main()
     printf("The Sum Of Integers is: %d",a+b);
     printf("The Sum Of Floats is: %f",c+d);
 return 0; 
- }
+
+}
