@@ -47,4 +47,5 @@ main
           count++;
     }while(guess != number);
             
-    return 0; }
+    return 0;\
+        }
