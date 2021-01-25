@@ -13,5 +13,4 @@ int main ()
     {
         printf("The markes of %d is %d\n", i+1 ,mark[i]);
     }
-    return 0;
-}
+    return 0; }
