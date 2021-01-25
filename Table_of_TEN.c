@@ -9,4 +9,5 @@ int main()
     {
         printf("\n%d * %d = %d",n,i,(n*i)); //formatted so as to print Ex: "2 * 2 = 4"
     }
-    return 0; }
+    return 0;  
+}
