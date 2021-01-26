@@ -8,3 +8,6 @@ int main()
     for(i=1;i<=10;i++) //loop for printing table
     {
         printf("\n%d * %d = %d",n,i,(n*i)); //formatted so as to print Ex: "2 * 2 = 4"
+    }
+    return 0;  
+}
