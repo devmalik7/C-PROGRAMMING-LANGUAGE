@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 int main()
 {
     int i, n, m, a[100], b[100], ca, cb;
