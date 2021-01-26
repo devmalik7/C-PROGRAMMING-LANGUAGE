@@ -2,8 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 int main() {
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int i,n,arr[1000];
     scanf("%d",&n);
     
