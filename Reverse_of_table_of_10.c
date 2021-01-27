@@ -7,4 +7,5 @@ int main()
     {
         printf("10 X %d = %d\n", i, 10*i);
     }
-    return 0;  }
+    return 0;
+}
