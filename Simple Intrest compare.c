@@ -9,7 +9,7 @@ int main()
 	scanf("%d",&x);
 	printf("\nEnter the interest rate for Ram:");
 	scanf("%f",&r1);
-	printf("\nEnter the time(in years) for Ram:");
+	printf("\nEnter the time(in years for Ram:");
 	scanf("%d",&t1);
 	float s1 = (x*r1*t1)/100;
 	printf("\nSI for Ram is:%f", s1);
