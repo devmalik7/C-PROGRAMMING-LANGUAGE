@@ -12,7 +12,6 @@ int main()
 
     do
     {
-
         printf("GUESS THE NUMBER BETWEEN 0 AND 100: ");
         scanf("%d", &guss);
         if (guss < number)
@@ -23,7 +22,6 @@ int main()
     printf("Welcome, To The Number Guessing Game...");
     do
     {
-
         printf("\nGUESS THE NUMBER BETWEEN 0 AND 100 :");
         scanf("%d", &guess);
         if (guess < number)
@@ -46,6 +44,6 @@ main
           count++;
     }while(guess != number);
             
-    return 0;\
+    return 0;
         
         }
