@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+
 int main()
 {
     printf("Multiplication table of 10 \n\n");
